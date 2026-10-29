@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Curbwaste is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/curbwaste
+Curbwaste provides cloud‑based waste management software for haulers, offering order management, real‑time dispatch, inventory tracking, automated invoicing, and driver mobile apps. Built by industry veterans, the platform helps waste businesses increase revenue, improve cash flow, and streamline operations through integrated e‑commerce and data‑centric reporting.
+
+**Areas:** Waste · Software · Software-as-a-Service · Logistics · Haulers
+
+## Curbwaste on APIs.io
+
+Everything profiled for Curbwaste is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/curbwaste/](https://apis.io/providers/curbwaste/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [CurbWaste Partner API](https://apis.io/apis/curbwaste/curbwaste-partner-api/) — Partner API for CurbWaste providing endpoints for catalog and pricing lists.
+- [Curbwaste Catalog API](https://apis.io/apis/curbwaste/curbwaste-catalog-api/) — The Catalog API from Curbwaste — 5 operation(s) for catalog.
+- [Curbwaste Customers API](https://apis.io/apis/curbwaste/curbwaste-customers-api/) — Company CRM customers under /v1/customers. Requires customers:read or customers:write.
+- [Curbwaste Locations API](https://apis.io/apis/curbwaste/curbwaste-locations-api/) — The Locations API from Curbwaste — 3 operation(s) for locations.
+- [Curbwaste Zones API](https://apis.io/apis/curbwaste/curbwaste-zones-api/) — The Zones API from Curbwaste — 2 operation(s) for zones.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Curbwaste Webhooks](https://apis.io/asyncapis/curbwaste/curbwaste-webhooks/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Curbwaste Context](https://apis.io/jsonld/curbwaste/curbwaste-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Curbwaste API Rules](https://apis.io/rules/curbwaste/curbwaste-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Curbwaste Authentication](https://apis.io/security/curbwaste/curbwaste-authentication/)
+- [Curbwaste Domain Security](https://apis.io/security/curbwaste/curbwaste-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.curbwaste.com)
+- [Documentation](https://dev.curbwaste.com/)
+- [Getting started](https://docs.curbwaste.com/quickstart)
+- [API reference](https://docs.curbwaste.com/api-reference/catalog/list-pricelists)
+- [Support](https://www.curbwaste.com/help-center)
+- [Blog](https://www.curbwaste.com/blog/wasteexpo-2025)
+- [Terms of service](https://www.curbwaste.com/terms-conditions)
+- [Privacy policy](https://www.curbwaste.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 40.7** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 62.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 49.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 41.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/curbwaste/](https://apis.io/providers/curbwaste/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Curbwaste: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/curbwaste/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
